@@ -46,7 +46,7 @@ It is used to release resources (like memory, files, or connections) acquired by
 
 - Automatically invoked when an object is destroyed.
 
-## 1. Algorithm: Default Constructor inside 
+## 1. Algorithm: Default Constructor inside a class
 
 **Step 1**: Start the program.
 
@@ -54,45 +54,42 @@ It is used to release resources (like memory, files, or connections) acquired by
 
 **Step 3**: Define a class student with the following members:
 
-Data members:
+1. Data members:
 
 - rollno (integer)
 
-name (character array)
+- name (character array)
 
-fees (double)
+- fees (double)
 
+2. Member functions:
 
-Member functions:
+- Constructor student() → Reads values of rollno, name, and fees from the user.
 
-Constructor student() → Reads values of rollno, name, and fees from the user.
+- display() → Displays the student details.
 
-display() → Displays the student details.
+**Step 4**: Inside the constructor:
 
+- Prompt the user to enter roll number, name, and fees.
 
+- Read and store the values in the respective data members.
 
-Step 4: Inside the constructor:
+**Step 5**: In the display() function:
 
-Prompt the user to enter roll number, name, and fees.
+- Print the roll number, name, and fees on the screen.
 
-Read and store the values in the respective data members.
+**Step 6**: In the main() function:
 
+- Create an object s of class student.
 
-Step 5: In the display() function:
+- At this moment, the constructor is automatically invoked, and inputs are taken.
 
-Print the roll number, name, and fees on the screen.
+- Call the function s.display() to show the stored details.
 
+**Step 7**: End the program.
 
-Step 6: In the main() function:
-
-Create an object s of class student.
-
-At this moment, the constructor is automatically invoked, and inputs are taken.
-
-
-Call the function s.display() to show the stored details.
+## 2. Algorithm: Default Constructor outside a class
 
 
-Step 7: End the program.
 
 
