@@ -46,5 +46,53 @@ It is used to release resources (like memory, files, or connections) acquired by
 
 - Automatically invoked when an object is destroyed.
 
-## 1. Algorithm: 
+## 1. Algorithm: Default Constructor inside 
+
+**Step 1**: Start the program.
+
+**Step 2**: Include the header file <iostream> for input and output operations.
+
+**Step 3**: Define a class student with the following members:
+
+Data members:
+
+- rollno (integer)
+
+name (character array)
+
+fees (double)
+
+
+Member functions:
+
+Constructor student() → Reads values of rollno, name, and fees from the user.
+
+display() → Displays the student details.
+
+
+
+Step 4: Inside the constructor:
+
+Prompt the user to enter roll number, name, and fees.
+
+Read and store the values in the respective data members.
+
+
+Step 5: In the display() function:
+
+Print the roll number, name, and fees on the screen.
+
+
+Step 6: In the main() function:
+
+Create an object s of class student.
+
+At this moment, the constructor is automatically invoked, and inputs are taken.
+
+
+Call the function s.display() to show the stored details.
+
+
+Step 7: End the program.
+
 
