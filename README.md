@@ -124,7 +124,31 @@ It is used to release resources (like memory, files, or connections) acquired by
 
 **Step 6**: End
 
-## 3. Algorithm: 
+## 3. Algorithm: Parametrized constructor
+
+**Step 1**: Start
+
+**Step 2**: Define a class multiplication with:
+
+- Data members: a, b, and multiply.
+
+- A parameterized constructor multiplication(int m, int n) that:
+
+- Assigns a = m, b = n.
+
+- Calculates multiply = a * b.
+
+- A member function display() that prints the values of a, b, and their product.
+
+**Step 3**: In the main() function:
+
+- Create an object mul of class multiplication with values 2 and 5.
+
+- Call mul.display() to show the result.
+
+**Step 4**: End
+
+## 4. Algorithm: 
 
 
 
