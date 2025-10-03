@@ -90,6 +90,41 @@ It is used to release resources (like memory, files, or connections) acquired by
 
 ## 2. Algorithm: Default Constructor outside a class
 
+**Step 1**: Start
+
+**Step 2**: Define a class Mycar with data members:
+
+- car no (integer)
+
+- name (character array)
+
+- price (double)
+
+**Step 3**: Create a constructor Mycar() to:
+
+- Input car number
+
+- Input car name
+
+- Input car price
+
+**Step 4**: Define a member function display() to print:
+
+- Car number
+
+- Car name
+
+- Car price
+
+**Step 5**: In main():
+
+- Create an object s of class Mycar.
+
+- Call the function s.display() to show car details.
+
+**Step 6**: End
+
+## 3. Algorithm: 
 
 
 
