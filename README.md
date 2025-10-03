@@ -148,7 +148,41 @@ It is used to release resources (like memory, files, or connections) acquired by
 
 **Step 4**: End
 
-## 4. Algorithm: 
+## 4. Algorithm: Copy constructor
+
+**Step 1**: Start
+
+**Step 2**: Define a class Student with:
+
+- Data members: name (string), age (int).
+
+- A parameterized constructor to initialize name and age.
+
+- A copy constructor Student(const Student &s) that:
+
+- Copies name and age from the existing object to the new one.
+
+- Prints "Copy Constructor called!".
+
+- A member function display() to print name and age.
+
+**Step 3**: In main():
+
+- Create object s1 with values "Swarali" and 19.
+
+- Create object s2 using the copy constructor (s2 = s1).
+
+- Display details of s1 (original object).
+
+- Display details of s2 (copied object).
+
+**Step 4**: End
+
+## Conclusion
+
+From this experiment, we understood the role of constructors and destructors in C++. 
+Constructors are special member functions that automatically initialize objects when they are created, while destructors are used to release resources when objects go out of scope. 
+By using different types of constructors (default, parameterized, and copy), we can initialize objects in various ways. Destructors ensure proper cleanup of memory and resources, making programs more efficient and reliable.
 
 
 
